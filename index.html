@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple E-commerce Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav {
+      background: #444;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 50px;
+      background: #ddd;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .product {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      max-height: 250px;
+      object-fit: contain;
+      border-radius: 8px;
+    }
+    .product h3 {
+      margin: 10px 0;
+    }
+    .product p {
+      color: #666;
+    }
+    .product button {
+      background: #222;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    .product button:hover {
+      background: #555;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My E-commerce Store</h1>
+    <p>Shop the latest products at the best prices!</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Welcome to Our Store</h2>
+    <p>Find amazing deals below</p>
+  </section>
+
+  <section class="products">
+    <div class="product">
+      <img src="C:\Users\it444\Downloads\web4.jpg" alt="Watch Set">
+      <h3>Stylish Watches</h3>
+      <p>Premium quality wristwatches.</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="C:\Users\it444\Downloads\web1.jpg" alt="Smartwatch">
+      <h3>Smartwatch</h3>
+      <p>Track your health and stay connected.</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="C:\Users\it444\Downloads\web2.jpg" alt="Headphones">
+      <h3>Wireless Headphones</h3>
+      <p>High-quality sound with deep bass.</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="C:\Users\it444\Downloads\web3.jpg" alt="Earbuds">
+      <h3>Wireless Earbuds</h3>
+      <p>Compact design with powerful sound.</p>
+      <button>Add to Cart</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My E-commerce Store. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
